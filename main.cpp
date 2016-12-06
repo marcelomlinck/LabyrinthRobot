@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	srand(time(NULL));
 	if(argc==1) {
-		cout << "please use " << argc << " labirinto.txt" << endl;
+		cout << "please use " << argc << " labyrinth.txt" << endl;
 		exit(0);
 	}
     ifstream arq;
